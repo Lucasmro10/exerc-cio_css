@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body > header {
+    display: flex;
+    background-color: #2f362f;
+    padding: 16px 16px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    border-radius: 5px;
+    height: 60%;
+    width: 90%;
+}
+
+header li{
+    display: inline;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.container{
+    width: auto;
+    margin: 0;
+    padding: 1%; 
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 90%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px
+}
+
+section h2,
+.articles article{
+    padding-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(56,89,100,0.6);
+    color: white;
+}
+
+#sports .articles article a{
+    background-color: rgba(56,89,100,0.8)
+}
+
+#sports .articles article a:hover{
+    background-color: white;
+    color:rgba(56,89,100,0.8);
+}
+
+#sports time{
+    color:#b1b4b1
+}
+
+#economy{
+    background-color: rgba(46,108,123,0.6);
+    color: white;
+}
+
+#economy time{
+    color: #b1b4b1;
+}
+
+#economy .articles article a{
+    background-color: white;
+    color: rgba(46,108,123,0.9);
+}
+
+#economy .articles article a:hover{
+    background-color: rgba(59, 86, 93, 0.9);
+    color:white;
+}
+
+
+#tourism{
+    background-color: rgba(78,132,152, 0.9);
+    color: white;
+}
+
+#tourism time{
+    color: #b1b4b1;
+}
+
+#tourism .articles article a{
+    background-color: white;
+    color: rgba(78,132,152,0.9);
+}
+
+#tourism .articles article a:hover{
+    background-color: rgba(6, 86, 115, 0.9);
+    color:white;
+}
+
+/* pop
+112,156,181 */
+
+#pop{
+    background-color: rgba(112,156,181, 0.9);
+    color: white;
+}
+
+#pop time{
+    color: #b1b4b1;
+}
+
+#pop .articles article a{
+    background-color: white;
+    color: rgba(112,156,181,0.9);
+}
+
+#pop .articles article a:hover{
+    background-color: rgba(61, 88, 104, 0.9);
+    color:white;
+}
+
